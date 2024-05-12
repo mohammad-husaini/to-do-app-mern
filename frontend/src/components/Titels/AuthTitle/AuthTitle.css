@@ -1,0 +1,14 @@
+.auth-title {
+  min-width: 235px;
+  min-height: 45px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171923;
+}

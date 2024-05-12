@@ -1,0 +1,21 @@
+.register-span-style1 {
+  width: 290px;
+  min-height: 27px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #171c26;
+}
+.register-span-style2 {
+  font-weight: 500;
+  color: #00939f;
+}
+.register-span-style2:hover {
+  cursor: pointer;
+}

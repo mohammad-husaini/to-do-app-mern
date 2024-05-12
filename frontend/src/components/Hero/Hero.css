@@ -1,0 +1,112 @@
+.hero {
+  height: 93vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 21rem 4rem 21rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.add-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap");
+.add-text {
+  font-family: "Noto Sans Arabic", sans-serif;
+  min-height: 10.8rem;
+  width: 100vw;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.12rem;
+  text-align: center;
+  color: #171923;
+  user-select: none;
+}
+.add-button-main {
+  width: 22rem;
+  height: 5.2rem;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: #00939f;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.032rem;
+  color: #f7fafc;
+  user-select: none;
+}
+.add-button-main:hover {
+  background-color: #046f79;
+}
+.add-button-plus {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.25;
+  letter-spacing: 0.032rem;
+  color: #f7fafc;
+  user-select: none;
+}
+.empty {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  height: 45rem;
+}
+
+.table {
+  width: 70.8vw;
+  height: 82.8vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  overflow: visible;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 1px 4px 0 rgba(69, 75, 87, 0.12),
+    0 0 0 1px rgba(152, 161, 178, 0.1);
+  background-color: #fff;
+}
+@media screen and (max-width: 760px) {
+  .table {
+    width: 95vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .table {
+    width: 100vw;
+    height: 93vh;
+  }
+  .hero {
+    padding: 0;
+  }
+  .add-text {
+    font-size: 2.6rem;
+  }
+  .empty {
+    width: 30rem;
+    height: 30rem;
+  }
+}

@@ -1,0 +1,210 @@
+.table-pagination {
+  width: 100%;
+  min-height: 5.1%;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid#e9edf5;
+  padding: 12px 12px 12px 24px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(244, 247, 252, 0.75);
+  overflow: visible;
+}
+
+.from-to-element {
+  height: 18px;
+  flex-grow: 1;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  text-align: right;
+  color: rgba(23, 25, 35, 0.7);
+}
+.page-size-text {
+  min-width: 131px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  text-align: right;
+  color: #171923;
+}
+
+.page-size {
+  min-width: 165px;
+  height: 18px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin: 1px 20px;
+  padding: 0;
+  overflow: visible;
+}
+
+.page-size-number-box {
+  width: 30px;
+  height: 16px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.page-size-number {
+  width: 14px;
+  height: 14px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.36px;
+  text-align: right;
+  color: rgba(23, 25, 35, 0.7);
+}
+.page-size-down-arrow {
+  width: 16px;
+  height: 16px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+.page-number-box {
+  width: 93px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+.right-button,
+.left-button {
+  width: 24px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 4px;
+  transform: rotate(-180deg);
+  border-radius: 6px;
+  border: solid 1px #171923;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.right-arrow {
+  width: 16px;
+  height: 16px;
+  flex-grow: 0;
+  object-fit: contain;
+  transform: rotate(-180deg);
+}
+.left-arrow {
+  width: 16px;
+  height: 16px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+.page-number-text {
+  width: 25px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  text-align: right;
+  color: rgba(23, 25, 35, 0.7);
+}
+
+.text-style-1 {
+  color: #171923;
+}
+.left-button.disabled,
+.right-button.disabled {
+  background-color: (244, 247, 252, 0.75);
+  border: solid 1px #cbd5e0;
+  cursor: not-allowed;
+}
+.page-size-down-option {
+  position: relative;
+  bottom: -25px;
+  left: -175px;
+  width: 25px;
+  height: 35px;
+  overflow: visible;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  border: 1px solid rgb(126, 123, 123);
+}
+.page-size-down-option-span {
+  width: 14px;
+  height: 14px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.36px;
+  text-align: center;
+
+  color: rgba(23, 25, 35, 0.7);
+}
+.page-size-down-option-span:hover {
+  cursor: pointer;
+}
+.page-size-down-arrow:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 760px) {
+  .page-size-text {
+    display: none;
+  }
+  .page-size {
+    min-width: 65px;
+  }
+  .page-size-down-option {
+    left: -40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .page-size-down-option {
+    left: -60px;
+    top: -5px;
+  }
+}

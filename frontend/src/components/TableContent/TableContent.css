@@ -1,0 +1,334 @@
+.number-colum {
+  min-width: 2.5vw;
+  height: 4vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 0;
+}
+
+.title-colum {
+  width: 18vw;
+  min-height: 4vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 0;
+}
+.describe-colum {
+  width: 27.7vw;
+  min-height: 4vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 0;
+}
+.status-colum {
+  min-width: 5.55vw;
+  height: 4vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 0;
+}
+.hash-tag {
+  min-width: 8px;
+  min-height: 16px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #171923;
+}
+.sorting {
+  min-width: 16px;
+  min-height: 16px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+.title-text {
+  width: 37px;
+  min-height: 16px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #171923;
+}
+.describe-text {
+  width: 37px;
+  min-height: 16px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.44px;
+  text-align: right;
+  color: #171923;
+}
+.status-text {
+  width: 37px;
+  height: 16px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.44px;
+  text-align: right;
+  color: #171923;
+}
+.edit-remove-colum {
+  min-width: 7vw;
+  height: 3.125vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 2px;
+  padding: 12px 0;
+}
+.task {
+  min-height: 4.3vh;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 12px 0 24px;
+  background-color: #f9fafc;
+}
+.check-colum {
+  min-width: 20px;
+  padding: 12px 0;
+}
+.check-icon {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 1.7px 1.7px 1.7px 1.7px;
+}
+
+.number {
+  height: 20px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.28px;
+  text-align: right;
+  color: #171923;
+}
+.title {
+  width: 260px;
+  min-height: 20px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.28px;
+  text-align: right;
+  color: #171923;
+}
+.describe {
+  width: 400px;
+  min-height: 20px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(23, 25, 35, 0.8);
+}
+.status-completed {
+  width: 36px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  text-align: left;
+  color: #00939f;
+}
+.status-uncompleted {
+  min-width: 55px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  text-align: left;
+  color: #171923;
+}
+.status-box-completed {
+  width: 84px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: #e1fcef;
+}
+.status-box-uncompleted {
+  min-width: 84px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: #e9edf5;
+}
+.status-box-completed:hover,
+.status-box-uncompleted:hover {
+  cursor: pointer;
+}
+.status-arrow {
+  width: 16px;
+  height: 16px;
+  flex-grow: 0;
+  padding: 6.5px 5px;
+}
+.down-arrow-icon {
+  width: 6px;
+  height: 3px;
+
+  border: solid 1.5px #00939f;
+}
+
+.edit-remove {
+  height: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+}
+.trash-icon {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 1.3px 2.1px 1.7px 2.1px;
+}
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 1.3px 2.1px 1.7px 2.1px;
+}
+.trash-icon:hover,
+.edit-icon:hover {
+  cursor: pointer;
+}
+.edit-remove {
+  height: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+}
+
+.table-content {
+  width: 100%;
+  height: 82.65%;
+  background-color: #f9fafc;
+  overflow-y: scroll;
+}
+.table-content::-webkit-scrollbar {
+  display: none;
+}
+.check-icon-disable {
+  visibility: hidden;
+}
+.status-popover-completed {
+  width: 84px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: #e1fcef;
+}
+.status-popover-uncompleted {
+  width: 84px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: #e9edf5;
+}
+.status-popover-uncompleted:hover,
+.status-popover-completed:hover {
+  cursor: pointer;
+}
+.status-box-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

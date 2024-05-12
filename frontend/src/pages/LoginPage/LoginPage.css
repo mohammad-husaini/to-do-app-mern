@@ -1,0 +1,151 @@
+.sign-in {
+  width: 100%;
+  height: 100vh;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 16px;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.login-card-frame {
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px 40px;
+}
+.login-form {
+  min-height: 500px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+}
+
+.email-field {
+  min-height: 88px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 14px;
+  padding: 0;
+}
+
+.email-label {
+  width: 100px;
+  min-height: 22px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.15px;
+  text-align: right;
+  color: #171c26;
+}
+
+.forget-pass-field {
+  min-height: 24px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 81px;
+  padding: 0;
+}
+.forget-pass-span {
+  width: 130px;
+  height: 24px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #00939f;
+}
+.forget-pass-span:hover {
+  cursor: pointer;
+}
+
+.login-error-box {
+  width: 466px;
+  height: 32px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+.login-error-span {
+  width: 402px;
+  height: 24px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e00909;
+}
+.login-error-icon {
+  width: 24px;
+  height: 24px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+.red-error-span {
+  color: #e00909;
+}
+.red-error-border {
+  border: solid 1px #e00909;
+}
+.error-pass-input {
+  width: 100%;
+  height: 20px;
+  flex-grow: 0;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.15px;
+  text-align: right;
+  color: #171c26;
+  border: none;
+  background-color: #fafafa;
+}
+.error-pass-input:focus {
+  outline: none;
+}
+.error-pass-input:focus::placeholder {
+  color: transparent;
+}
