@@ -12,14 +12,14 @@ To get started with the project, follow these steps:
 
     ```bash
     cd ./to-do-app-mern/frontend
-    npm run install
+    npm install
     ```
 
 3. Install dependencies for the backend:
 
     ```bash
     cd ./to-do-app-mern/backend/src
-    npm run install
+    npm install
     ```
  4. Create a `.env` file in the root directory of the backend/src and add the following environment variables:
 
